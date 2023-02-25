@@ -10,3 +10,6 @@ Install software Docker Engine is available on a variety of Linux platforms, mac
 OR
 
 Google Colaboratory (Tools on-line) https://colab.research.google.com/
+
+####  PONDERA® is a strategic ally in management innovation; A company whose team of experts in economics, analytics and Data Science organizes, analyzes and visualizes data to turn them into actionable information for the digital transformation of companies and governments.
+Address link https://www.ponderalab.com/en/home/
