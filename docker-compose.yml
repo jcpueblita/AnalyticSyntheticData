@@ -1,8 +1,8 @@
-# Container by docker-compose for data lake  
+# Container by docker-compose for Pangea Pondera Lab
 version: "3"
 	services:
-	      LCiD-ideamaps-Paloma-Merodio:
-	        image: "jupyter/all-spark-notebook:2021-09-27"
+	      PonderaLabContainer:
+	        image: "jupyter/all-spark-notebook"
 	        environment:
 	            - JUPYTER_ENABLE_LAB=${JUPYTER_ENABLE_LAB:-yes}
 	            - GRANT_SUDO=yes
@@ -10,7 +10,7 @@ version: "3"
 	        volumes:
 	            - type: bind
 	              source: ${VOLUMES:-/datalake/ponderalab}
-	              target: "/home/jovyan/datos_ideamaps"
+	              target: "/home/jovyan/ponderalab"
 	        ports:
-	            - "8123:8888"
-        command: "start.sh jupyter lab --LabApp.token='PangeaPonderaLab'" # Comando para token
+	            - "8181:8888"
+        command: "start.sh jupyter lab --LabApp.token='PangeaPonderaLab'" # Access Token 
