@@ -8,5 +8,5 @@ _______________________________________
 Install software Docker Engine is available on a variety of Linux platforms, macOS and Ms. Windows 10 through Docker Desktop, and as a static binary installation. Find your preferred operating system below, https://docs.docker.com/engine/install/
 
 OR
-Google Colaboratory (Tools on-line)
-https://colab.research.google.com/
+
+Google Colaboratory (Tools on-line) https://colab.research.google.com/
